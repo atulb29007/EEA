@@ -452,3 +452,90 @@ div#president-message>p{
   /*font-size:1.2em;
   font-weight:lighter;*/
 }
+
+/*---------------------------*/
+/*-------- Team Page --------*/
+/*---------------------------*/
+.cordrow{
+  margin:40px 0;
+  padding:0;
+  width:100%;
+}
+.cordrow>h1{
+  font-family:'Josefin Sans';
+  margin:0 0 30px 0;
+  padding:0;
+  font-size:2.3em;
+  letter-spacing:1px;
+  text-align:center;
+}
+.cordcol{
+  margin:0;
+  padding:0;
+}
+.cordcard{
+  width:96%;
+  margin:0 auto;
+  padding:0;
+  max-width:220px;
+}
+.cordintro{
+  height:200px;
+  width:100%;
+  margin:0;
+  padding:0;
+  display:flex;
+  flex-direction:row;
+}
+.cordpic{
+  margin:0;
+  padding:0;
+  flex-grow:1;
+  flex-shrink:0;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.cordlink{
+  width:50px;
+  height:100%;
+  background-color:rgba(247,85,88,1);
+  flex-shrink:0;
+}
+.cordlink>ul,.cordlink>ul>li{
+  width:100%;
+  margin:0;
+  padding:0;
+  list-style-type:none;
+}
+.cordlink ul li a{
+  color:white;
+  width:100%;
+  text-align:center;
+  height:50px;
+  border-bottom:1px solid #ff8484;
+  display:block;
+  line-height:40px
+}
+.cordname{
+  width:100%;
+  margin:0;
+  padding:0;
+  border:1px solid #d0c3c3;
+}
+.cordname h2{
+  font-family:'Josefin Sans';
+  margin:0;
+  padding:8px 0 0 0;
+  font-size:1.6em;
+  letter-spacing:1px;
+  text-align:center;
+}
+.cordname p{
+  font-family:'Josefin Sans';
+  margin:0;
+  padding:6px 0 10px 0;
+  font-size:1.3em;
+  letter-spacing:1px;
+  text-align:center;
+}
